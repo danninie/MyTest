@@ -1,0 +1,53 @@
+{
+  "name": "Payment",
+  "fields": [
+    {
+      "fieldName": "bidForStoryTreeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "bidderID",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "storyTreeID",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "clientSecret",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paymentState",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paymentMessage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210222084152",
+  "entityTableName": "payment",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
